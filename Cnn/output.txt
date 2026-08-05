@@ -1,0 +1,72 @@
+ML_Final_Project on  main [?] via 🐍 v3.13.3 (.venv) took 1m12s 
+❯ /home/sibo/Desktop/ML_Final_Project/.venv/bin/python /home/sibo/Desktop/ML_Final_Project/Cnn/train.py
+wandb: Currently logged in as: roisi20041 (roisi20041-ariel-university) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.21.0
+wandb: Run data is saved locally in /home/sibo/Desktop/ML_Final_Project/wandb/run-20250727_170615-0ekqn8cj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run cnn_run
+wandb: ⭐️ View project at https://wandb.ai/roisi20041-ariel-university/eurosat
+wandb: 🚀 View run at https://wandb.ai/roisi20041-ariel-university/eurosat/runs/0ekqn8cj
+Epoch 01 | train 1.4557/45.38% | val 1.1116/59.73%
+Epoch 02 | train 1.0059/64.29% | val 0.8390/71.23%
+Epoch 03 | train 0.8889/68.12% | val 0.7025/74.49%
+Epoch 04 | train 0.8247/70.95% | val 0.6624/75.88%
+Epoch 05 | train 0.7571/73.72% | val 0.6405/77.31%
+Epoch 06 | train 0.7290/74.82% | val 0.6494/76.57%
+Epoch 07 | train 0.6807/76.34% | val 0.5919/78.69%
+Epoch 08 | train 0.6647/76.83% | val 0.5074/82.15%
+Epoch 09 | train 0.6533/77.35% | val 0.5201/81.38%
+Epoch 10 | train 0.6125/78.68% | val 0.5284/80.99%
+Epoch 11 | train 0.6122/78.85% | val 0.5020/82.79%
+Epoch 12 | train 0.5811/79.84% | val 0.5400/80.81%
+Epoch 13 | train 0.5568/80.89% | val 0.4294/84.57%
+Epoch 14 | train 0.5406/81.39% | val 0.4039/85.75%
+Epoch 15 | train 0.5148/82.21% | val 0.4324/85.04%
+Epoch 16 | train 0.4776/83.39% | val 0.3998/86.12%
+Epoch 17 | train 0.4548/84.45% | val 0.3943/85.85%
+Epoch 18 | train 0.4605/84.19% | val 0.3563/87.75%
+Epoch 19 | train 0.4497/84.58% | val 0.3334/87.90%
+Epoch 20 | train 0.4083/86.26% | val 0.3441/87.19%
+Epoch 21 | train 0.3853/86.85% | val 0.3185/88.91%
+Epoch 22 | train 0.3825/87.13% | val 0.2694/90.77%
+Epoch 23 | train 0.3495/88.19% | val 0.3064/89.41%
+Epoch 24 | train 0.3394/88.53% | val 0.2764/90.67%
+Epoch 25 | train 0.3356/88.62% | val 0.2854/90.42%
+Epoch 26 | train 0.3084/89.52% | val 0.3539/88.49%
+Epoch 27 | train 0.2977/89.89% | val 0.3089/89.38%
+Early stop after 5 stale epochs
+TEST | loss 0.3243 | acc 89.06%
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:            epoch ▁▁▂▂▂▂▃▃▃▃▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:        grad_norm ▂▅▄▁▆▅▄▂▅▃▄▃▂▅▃▄█▅▂▄▁▅▄▂▁▄▃
+wandb:               lr ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:             step ▁▁▂▂▂▂▃▃▃▃▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇██
+wandb:         test/acc ▁
+wandb:        test/loss ▁
+wandb:  train/acc_epoch ▁▄▅▅▅▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇███████
+wandb:   train/acc_step ▂▁▆▃▅▂▅▅▆▇▅▇▃▅▅▅▅▅▆▇█▅▇▇█▇▇
+wandb: train/loss_epoch █▅▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁
+wandb:  train/loss_step ██▃▄▄▅▅▅▆▃▄▂▅▃▅▄▄▄▃▂▁▄▁▃▁▄▂
+wandb:          val/acc ▁▄▄▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇█████▇█
+wandb:         val/loss █▆▅▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:            epoch 27
+wandb:        grad_norm 18.0797
+wandb:               lr 0.001
+wandb:             step 7991
+wandb:         test/acc 0.89062
+wandb:        test/loss 0.32428
+wandb:  train/acc_epoch 0.89894
+wandb:   train/acc_step 0.95
+wandb: train/loss_epoch 0.29771
+wandb:  train/loss_step 0.20051
+wandb:          val/acc 0.89383
+wandb:         val/loss 0.30895
+wandb: 
+wandb: 🚀 View run cnn_run at: https://wandb.ai/roisi20041-ariel-university/eurosat/runs/0ekqn8cj
+wandb: ⭐️ View project at: https://wandb.ai/roisi20041-ariel-university/eurosat
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250727_170615-0ekqn8cj/logs
